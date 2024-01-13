@@ -12,3 +12,9 @@ body
     border: 2px solid;
 }
 
+#contenedor h1{
+    font-size: 70px;
+}
+#contenedor p{
+    font-size: 30px;
+}
