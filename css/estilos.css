@@ -1,20 +1,31 @@
-body
-{
-    color: red;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+body{
+    color:  red;
+    text-align:center;
+    font-family:Arial;
+    font-size:16px;margin:0;padding:0
 }
+#cabecera{background:#33a;
+    box-shadow:0 2px 20px 0 rgba(0,0,0,.5);
+    color:#fff;
+    font-weight:700;margin:0;
+    padding:.5em}
 
-#contenedor{
-    padding: 1em;
-    text-align: center;
-    margin: auto;
-    border: 2px solid;
-}
+#cabecera 
+#tagline{
+    padding:0 0 0 1em;
+    font-weight:400;
+    font-size:.8em}
+#container{
+    width:70%;
+    padding:0;
+    text-align:left;
+    border:1px solid #ddd;
+    margin:0 auto}
+#container h1{
+    font-size:20px}
 
-#contenedor h1{
-    font-size: 70px;
-}
-#contenedor p{
-    font-size: 30px;
-}
+#post{
+    padding:1em}
+
+
+
